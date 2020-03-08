@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Regla basica -->
+<category>
+<pattern>Hola ^  </pattern>
+<template>Hola, bienvenido,soy OLIesei el asistente virtual de la Univerdidad de Vigo y de la ESEI, en que puedo ayudarte?</template >
+</category>
+
+
+
+<!-- 1 regla -->
+<category>
+<pattern> Hablame un poco sobre la Universidad de Vigo  </pattern>
+<template>A Universidade de Vigo é unha institución nova e dinámica que che ofrece unha grande oferta formativa nos tres campus especializados e innovadores que a conforman.Estamos presentes
+ nos concellos de Ourense, Pontevedra e Vigo con tres campus especializados onde atoparás máis de 30 centros para a formación e para a investigación, así como instalacións para o deporte e o lecer, 
+ cunha programación cultural continuada. Contamos tamén co Campus de Excelencia Internacional, Campus do Mar, que está liderado pola Universidade de Vigo e que agrega a máis de 3000 persoas 
+ investigadoras, formando unha rede transfronteiriza de investigación e coñecemento co mar como eixe dinamizador.
+
+Nos nosos campus poderás estudar 122 graos e másteres oficiais, 39 programas de doutoramento, catro titulacións de programación conxunta e catro dobres titulacións con universidades estranxeiras. 
+Ofrecemos ademais centos de programas, eventos, obradoiros e cursos de linguas e, por suposto, o noso programa para maiores.
+
+A Universidade de Vigo foise construíndo sobre fondos valores positivos, asentados na transparencia e na boa xestión, na integración, na igualdade, na diversidade e no respecto ao medio. 
+Apostamos pola especialización e pola investigación de calidade e, como institución comprometida coa contorna social e económica, é central para nós a transferencia do coñecemento á sociedade, 
+polo que procuramos que a investigación reverta continuamente no desenvolvemento social.</template>
+</category>
+
+
+<!-- Regla 1.1-->
+<category>
+<pattern> ^ Informacion ^  </pattern>
+<template><srai>Hablame un poco sobre la Universidad de Vigo</srai></template>
+</category>
+
+<!-- Regla 1.2-->
+<category>
+<pattern> * es la ^  </pattern>
+<template><srai>Hablame un poco sobre la Universidad de Vigo</srai></template>
+</category>
+
+
+
+
+
+
+<!-- 2 regla -->
+<category>
+<pattern> Donde se encuentra la ESEI  </pattern>
+<template>La ESEI se encuentra en el Edificio Politécnico del Campus de Ourense</template >
+</category>
+
+<!-- Regla 2.1-->
+<category>
+<pattern> Donde esta la ESEI </pattern>
+<template><srai>Donde se encuentra la ESEI</srai></template>
+</category>
+
+<!-- Regla 2.2-->
+<category>
+<pattern> Como * a la esei </pattern>
+<template><srai>Donde se encuentra la ESEI</srai></template>
+</category>
+
+
+<!-- 3 regla -->
+<category>
+<pattern> Que puedo estudiar en la ESEI  </pattern>
+<template>
+Actualmente se puede estudiar el Grado en Ingeniería Informática, el Programa Conjunto ADE + EI y el Máster Universitario en Ingeniería Informática.
+</template>
+</category>
+
+
+<!-- Regla 3.1-->
+<category>
+<pattern> Que estudiar ^ </pattern>
+<template><srai>Que puedo estudiar en la ESEI</srai></template>
+</category>
+
+<!-- Regla 3.2-->
+<category>
+<pattern> ^ Estudios ^ </pattern>
+<template><srai>Que puedo estudiar en la ESEI</srai></template>
+</category>
+
+
+
+
+
+<!-- 4 regla -->
+<category>
+<pattern> Por que merece la pena estudiar en la ESEI  </pattern>
+<template>
+Los profesionales y el material puesto a disposicion del alumnado garantizan una adecuada formacion en una disciplina tan amplia y de gran valor actual en el plano laboral.
+</template>
+</category> 
+
+
+
+<!-- 5 regla -->
+<category>
+<pattern> Hay una cafeteria en la ESEI </pattern>
+<template>
+Hay una cafetería en la ESEI. Se encuentra en la salida este del Edificio Politécnico y abre de 8:00 a 20:00 horas de lunes a viernes.  
+</template>
+</category>
+
+
+ 
+<!-- 6 regla -->
+<category>
+<pattern> Donde se encuentra la Secretaria de la ESEI </pattern>
+<template>
+La secretaría de la ESEI se encuentra a mano derecha tras entrar por la puerta principal del Edificio Politécnico, en el vestíbulo. 
+</template>
+</category> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 7 regla -->
+<category>
+<pattern> Que horario de atencion al publico tiene la secretaria del centro  </pattern>
+<template>
+La secretaría del centro atiende al público de lunes a viernes, de 9:00 a 14:00 horas
+</template>
+</category> 
+
+
+
+
+<!-- 8 regla -->
+<category>
+<pattern> En que consiste el PAT </pattern>
+<template>
+O PAT (Plan de Acción Titorial) da Escola Superior de Enxeñaría Informática (ESEI) é un programa de atención personalizada dirixido ao alumnado de novo ingreso. 
+O seu obxectivo é facilitar a integración do alumnado na vida universitaria en xeral e na ESEI en particular.
+</template>
+</category> 
+
+
+
+
+<!-- 9 regla -->
+<category>
+<pattern> Cual es el protocolo de acogida de alumnos con necesidades educativas especiales </pattern>
+<template>
+El PAT (Plan de Acción Titorial) fue creado para gestionar este tipo de situaciones respecto al alumnado, esntre otras,
+</template>
+</category> 
+
+
+
+
+<!-- 10 regla -->
+<category>
+<pattern> Existe una delegacion de alumnos en la ESEI </pattern>
+<template>
+La ESEI dispone de una delegación de alumnos, conocida como ESEIDA
+</template>
+</category> 
+
+
+
+
+<!-- 11 regla -->
+<category>
+<pattern> Que es el suplemento europeo al titulo  </pattern>
+<template>
+O Suplemento Europeo ao Título (SET) é o documento que otorga validez comunitaria ao currículum académico.
+Consiste nun anexo á titulación universitaria no que se pormenorizan as materias cursadas, idiomas impartidos, créditos realizados, competencias adquiridas, resultados académicos
+ e cualificación profesional do graduado, máster ou doctorado, cos seus nomes e apelidos, entre outras acreditaciones fidedignas en toda Europa.
+</template>
+</category> 
+
+
+
+
+<!-- 12 regla -->
+<category>
+<pattern> Que tipo de practicas puedo realizar como alumno de la ESEI </pattern>
+<template>
+Puedes realizar tanto practicas curriculares como no curriculables. Las curriculares, xestionadas pola Escola, son prácticas que están incluídas no plano de estudos do alumnado 
+(ben optativas como no Grao en Enxeñaría Informática, ou ben obrigatorias, como no Máster en Enxeñaría Informática). Realízanse obrigatoriamente durante o curso académico, 
+pois teñen o carácter administrativo de calquera outra materia. Las no curriculares estan xestionadas pola FUVI. Son máis flexibles para a empresa e o/a estudante, 
+pois entre outras cuestións pódense convocar e cursar en calquera momento, a empresa pode seleccionar ó/á alumno/a entre as persoas solicitantes, e poden realizarse 
+fóra do curso académico. Segundo a normativa da Universidade, estas prácticas deben ser remuneradas se superan as 240 horas, e non poden durar máis de 6 meses.
+</template>
+</category> 
+
+
+
+
+<!--  13 regla -->
+<category>
+<pattern> Donde puedo consultar la oferta de practicas en empresas </pattern>
+<template>
+En la siguiente direccion de la pagina web de la ESEI (https://esei.uvigo.es/docencia/practicas-en-empresa/) puedes encontrar un listado de las ofertas disponibles.
+</template>
+</category> 
+
+
+
+
+<!-- 14 regla -->
+<category>
+<pattern> Con que recursos materiales y servicios cuenta la ESEI </pattern>
+<template>
+La ESEI pone a disposicion de sus integrantes distintos espacios y herramientas para facilitar sus tareas. Dispone de aulas, laboratorios, seminarios e despachos, 
+se ofrece un servizo de correo electrónico aos membros da ESEI, una Red Wireless.
+</template>
+</category> 
+
+
+
+
+<!-- 15 regla -->
+<category>
+<pattern> Que son los Trabajos Fin de Grado o de Master </pattern>
+<template>
+Los trabajos Fin de Grado y de Máster son un proyecto de investigación autónomo, cuya la finalidad de favorecer que el estudiante integre las enseñanzas recibidas durante los estudios y 
+asegurar la adquisición de las competencias propias de la titulación. El trabajo tiene que incluir una tesina fruto de una investigación, 
+que se hace bajo la supervisión de un tutor y al final se debe presentar y defender el trabajo ante un tribunal que calificará y valorará el trabajo.
+</template>
+</category> 
+
+
+
+
+<!-- 16 regla -->
+<category>
+<pattern> Como hago para acceder a la Biblioteca </pattern>
+<template>
+La Biblioteca se encuentra en el campus sur, junto a la piscina universitaria, su apertura esta garantizado durante los horarios de las facultades e escolas, excepto no período de exames, durante el que permanece abertas ata a madrugada e durante os fins de semana. Para acceder aos servizos de préstamos deberás ter o teu carné universitario.
+</template>
+</category> 
+
+
+
+
+<!-- 17 regla -->
+<category>
+<pattern> Como puedo justificar mi asistencia a las actividades de evaluacion y a sus revisiones </pattern>
+<template>
+Mediante la firma e identificación inequívoca del alumno en cuestión en el documento correspondiente a dicha actividad o revisión.
+</template>
+</category> 
+
+
+
+
+<!-- 18 regla -->
+<category>
+<pattern> Que actividades deportivas ofrece la ESEI </pattern>
+<template>
+Al ser estudiante de la Universidad de Vigo a traves de la ESEI, accedes a todas las actividades que oferta la Universidad. 
+Hay un gran abanico de opciones, de las escuelas deportivas, fitness, equipos federados y otras actividades al aire libre. Para mas informacion sobre estas y los procesos de inscripcion, 
+visita https://campusactivo.uvigo.gal/, 
+</template>
+</category> 
+ 
+</aiml>

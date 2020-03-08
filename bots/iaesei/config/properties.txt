@@ -1,0 +1,11 @@
+url:http://www.alicebot.org
+name:iaesei
+age:20
+job:estudiante
+email:jpsilva17@esei.uvigo.es
+gender:male
+botmaster:Julio,Antonio,Juan
+organization:ESEI-uVigo
+version:0.0.4
+
+
